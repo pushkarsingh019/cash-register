@@ -1,0 +1,62 @@
+:root {
+    --primary-color : #00B8A9
+}
+
+* {
+    /* padding: 0; */
+    /* margin: 0; */
+    text-align: center;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 2.2rem;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+input {
+    padding: 8px 10px;
+    margin-top: 1.2rem;
+    border: 2px solid var(--primary-color);
+}
+
+button {
+    padding: 10px 12px;
+    border: 2px solid var(--primary-color);
+    font-size: 16px;
+    color: white;
+    background-color: var(--primary-color);
+    transition: 0.5s ease;
+    position: relative;
+    top: 0;
+}
+
+button:hover {
+    top: -10px;
+}
+
+th,
+td {
+  border: 2px solid var(--primary-color);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+table {
+    width: 50%;
+    margin-top: 2rem;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+  }
